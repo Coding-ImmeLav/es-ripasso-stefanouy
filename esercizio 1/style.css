@@ -7,6 +7,10 @@ body {
 .contenitore {
     height: 10vh;
     border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
 }
 
 button {
@@ -22,22 +26,29 @@ button {
 
 #primo {
     /* inserisci qui il codice per il primo elemento*/
+    justify-content: center;
+    align-items: center;
 }
 
 #secondo {
-    /* inserisci qui il codice per il secondo elemento*/
+    justify-content: space-evenly;
+    flex-direction: row;
+    height: 100%;
 }
 
 #terzo {
-    /* inserisci qui il codice per il terzo elemento*/
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 #quarto {
-    /* inserisci qui il codice per il quarto elemento*/
+    justify-content: space-between;
+    align-items: center;
 }
 
 #quinto {
-    /* inserisci qui il codice per il quinto elemento*/
+    display: flex;
+    justify-content: space-between;
 }
 
 #verde {
@@ -48,4 +59,7 @@ button {
 #blu {
     background-color: lightskyblue;
 }
+
+
+
 
